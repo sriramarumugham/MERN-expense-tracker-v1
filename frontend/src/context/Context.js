@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8000/api/v1/";
+const BASE_URL = "https://expnese-tracker-v1-production.up.railway.app/";
 const GlobalContext = React.createContext();
 
 export const GlobalProvider = ({ children }) => {
